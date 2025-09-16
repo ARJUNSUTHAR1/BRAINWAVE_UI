@@ -3,7 +3,7 @@ import { companyLogos } from "../constants/constant"
 const CompanyLogos = ({className}) => {
   return (
     <div className={className}>
-      <h5 className='text-center tagline text-n-1/50 mb-6'>helping people create beautiful content at</h5> 
+      <h5 className='text-center tagline text-n-1/50'>helping people create beautiful content at</h5> 
       <ul className='flex '>
       {companyLogos.map((item ,index)=>(
           <li className="flex justify-center items-center h-[8.5rem] flex-1" key={index}>

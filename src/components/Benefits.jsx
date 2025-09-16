@@ -11,7 +11,7 @@ const Benefits = () => {
         <Heading className=' md:max-w-md lg:max-w-2xl' title="chat smarter, not harder with brainwave">
 
         </Heading>
-        <div className='flex flex-wrap  items-center  gap-10 w-full '>
+        <div className='flex flex-wrap justify-center items-center  gap-10 w-full '>
         {benefits.map((benefit,index)=>(
             <div className='z-2 relative bg-no-repeat bg-contain max-w-[28rem] bg-center h-fit p-0.5 md:max-w-[24rem] '
             style={{

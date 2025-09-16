@@ -72,7 +72,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg,rgb(155, 143, 124),rgb(9, 77, 72),rgb(96, 63, 136),rgb(150, 37, 118),rgb(39, 124, 177))",
       },
     },
   },
@@ -81,7 +81,7 @@ export default {
       addBase({});
       addComponents({
         ".container": {
-          "@apply max-w-[77.5rem] mx-auto px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
+          "@apply max-w-[77.5rem] px-5 md:px-10 lg:px-15 xl:max-w-[87.5rem]":
             {},
         },
         ".h1": {

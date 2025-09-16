@@ -4,11 +4,11 @@ import { check, service1, service2, service3 } from '../assets'
 import { brainwaveServices, brainwaveServicesIcons } from '../constants/constant'
 import Generating from './Generating'
 import {PhotoChatMessage, VideoBar ,Gradient ,VideoChatMessage} from '../design/Services'
-
+import Section from './Section'
 const Services = () => {
   return (
     
-    <div className='container'>
+    <Section className='container'>
       <Heading
       title = "Generative Ai Made For Creators"
       text = "BrainWave unlocks the potential of Ai-Powerd applications">
@@ -83,7 +83,7 @@ const Services = () => {
       </div>
 
       {/* <Gradient/> */}
-    </div>
+    </Section>
   )
 }
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="390" height="40" viewBox="0 0 390 40" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NeuroFlux logo">
+  <defs>
+    <linearGradient id="gA" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF5AA2"/>
+      <stop offset="50%" stop-color="#8A5CFF"/>
+      <stop offset="100%" stop-color="#2EE7A7"/>
+    </linearGradient>
+    <filter id="fGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Small icon on the left (keeps compact size) -->
+  <g transform="translate(6,8)" opacity="1">
+    <path d="M2 12 C18 -6, 46 26, 78 12" fill="none" stroke="url(#gA)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#fGlow)"/>
+    <path d="M2 12 C18 0, 46 22, 78 12" fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round" opacity="0.9"/>
+    <circle cx="2" cy="12" r="2.5" fill="#ffffff"/>
+    <circle cx="78" cy="12" r="2.5" fill="#ffffff"/>
+  </g>
+
+  <!-- Wordmark: keep same approximate vertical position and use sans-serif to be optimal -->
+  <text x="92" y="20" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif" font-weight="800" font-size="38" fill="url(#gA)" letter-spacing="-0.5" dominant-baseline="middle">
+    NeuroFlux
+  </text>
+</svg>

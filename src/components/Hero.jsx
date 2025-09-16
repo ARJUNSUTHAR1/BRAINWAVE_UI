@@ -4,7 +4,7 @@ import curve from '../assets/hero/curve.png'
 import robot from '../assets/background.jpg'
 import Button from './Button'
 import { heroBackground } from '../assets'
-import { BackgroundCircles,BottomLine,Gradient } from '../design/Hero.jsx'
+import { BackgroundCircles,BottomLine,Gradient } from '../design/BackgroundCircles.jsx'
 import { ScrollParallax } from 'react-just-parallax'
 import { heroIcons } from '../constants/constant'
 import Generating from './Generating.jsx'
@@ -16,7 +16,7 @@ const Hero = () => {
   return (
     <div>
       <Section
-      className="pt-[9rem] -mt-[5.25rem]"
+      className="pt-[9rem] -mt-[6.25rem]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem] lg:-translate-x-[2.5rem]"
       
@@ -26,11 +26,14 @@ const Hero = () => {
         <div ref={parallaxRef} className='container relative text-center'>
             <div className='relative mx-auto  z-1 max-w-[62rem] mb-[4rem] md:mb-20 lg:mb-[6rem]'></div>
         <h1 className=' h1 mb-6 capitalize'>
-            explore the posibilities of ai chatting with 
-            <span className='ml-2 inline-block relative'>brainwave <img className='top-full left-0 absolute w-full xl:-mt-2' src={curve} width={624} height={28} alt="curve" /></span>
+        Step Into the Future of Intelligent Conversations with  
+            <span className='ml-2 inline-block relative'>NeuroFlu <img className='top-full left-0 absolute w-full xl:-mt-2' src={curve} width={624} height={28} alt="curve" /></span>
         </h1>
-        <p className='body-1 max-w-3xl mx-auto mb-6 text-n-2 xl:mb-8'> unleash the power of ai with brainwave. upgrade your productivity with brainwave </p>
+        <p className='body-1 max-w-3xl mx-auto mb-6 text-n-2 xl:mb-8'> unleash the power of ai with NeuroFlu. upgrade your productivity with NeuroFlu </p>
         <Button href='#started' >get started</Button>
+
+
+
         </div>
       
 
@@ -78,7 +81,7 @@ const Hero = () => {
         />
 
 
-      <BottomLine/> 
+      {/* <BottomLine/>  */}
        
          </div>
 
